@@ -48,12 +48,12 @@ def run(songs)
   if input != "exit"
     #puts input
     case input
-    when "help"
-      help
-    when "list"
-      list(songs)
     when "play"
       play(songs)
+    when "list"
+      list(songs)
+    when "help"
+      help
     else 
       exit_jukebox
       #break
