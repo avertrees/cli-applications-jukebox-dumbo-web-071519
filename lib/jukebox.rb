@@ -44,6 +44,7 @@ def run(songs)
 
   puts "Please enter a command:"
   input = gets.chomp
+  
   if input != "exit"
     #puts input
     case input
@@ -55,7 +56,7 @@ def run(songs)
       play(songs)
     else 
       exit_jukebox
-      break
+      #break
     end
   else
     exit_jukebox
