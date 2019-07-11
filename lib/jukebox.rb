@@ -56,6 +56,8 @@ def run(songs)
     else 
       puts "invalid"
     end
+  else
+    exit_jukebox
   end 
-  exit_jukebox
+  
 end
