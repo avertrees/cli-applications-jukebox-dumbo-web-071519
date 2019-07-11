@@ -42,14 +42,16 @@ end
 def run(songs) 
   help
 
+  input = ""
+  while input != "exit"
+  
   puts "Please enter a command:"
   input = gets.chomp
-  puts input
-  while input != "exit"
   puts input
     case input
     when "play"
       play(songs)
+      break
     when "list"
       list(songs)
       break
@@ -60,6 +62,7 @@ def run(songs)
       exit_jukebox
       break
     end
+    
   end 
   exit_jukebox
 end
