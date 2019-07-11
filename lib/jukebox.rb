@@ -15,7 +15,7 @@ class String
 end
 
 def play(songs)
-  puts "Please enter a song name or number"
+  puts "Please enter a song name or number:"
   usrRequest = gets.chomp
   puts usrRequest
   if songs.include?(usrRequest)
