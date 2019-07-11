@@ -54,7 +54,7 @@ def run(songs)
     when "play"
       play(songs)
     else 
-      puts "invalid"
+      exit_jukebox
     end
   else
     exit_jukebox
