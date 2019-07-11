@@ -54,8 +54,6 @@ def run(songs)
       list(songs)
     when "help"
       help
-    else 
-      exit_jukebox
     end
   end 
   exit_jukebox
