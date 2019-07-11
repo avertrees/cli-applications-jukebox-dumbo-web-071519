@@ -44,9 +44,9 @@ def run(songs)
 
   puts "Please enter a command:"
   input = gets.chomp
-  
-  if input != "exit"
-    puts input
+  puts input
+  while input != "exit"
+  puts input
     case input
     when "play"
       play(songs)
