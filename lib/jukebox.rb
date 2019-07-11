@@ -47,13 +47,15 @@ def run(songs)
   
   while input != "exit"
     #puts input
-    #case input
+    case input
     when "play"
       play(songs)
     when "list"
       list(songs)
     when "help"
       help
+    else 
+      exit_jukebox
     end
   end 
   exit_jukebox
