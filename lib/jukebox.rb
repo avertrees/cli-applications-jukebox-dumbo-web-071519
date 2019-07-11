@@ -55,8 +55,8 @@ def run(songs)
     when "play"
       play(songs)
     else 
-      #exit_jukebox
-      break
+      exit_jukebox
+      #break
     end
   else
     exit_jukebox
